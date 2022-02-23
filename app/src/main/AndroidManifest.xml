@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.Cricket">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/cricket"
+        android:label="Cricket News"
+        android:roundIcon="@mipmap/cricket"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.Cricket_News">
+        <activity
+            android:name=".WebsiteActivity"
+            android:exported="false"
+            android:label="Details"/>
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>
