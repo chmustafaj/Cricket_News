@@ -17,7 +17,8 @@ import java.net.HttpURLConnection;
 import java.net.URL;
 import java.util.ArrayList;
 
-public class MainActivity extends AppCompatActivity {
+public class
+MainActivity extends AppCompatActivity {
     private RecyclerView recyclerView;
     private ArrayList<NewsItem> newsItems;
     private NewsAdapter adapter;
